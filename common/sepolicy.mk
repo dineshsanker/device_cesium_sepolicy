@@ -26,7 +26,7 @@ BOARD_PLAT_PRIVATE_SEPOLICY_DIR += \
     device/cesium/sepolicy/common/dynamic \
     device/cesium/sepolicy/common/system
 else
-BOARD_SEPOLICY_DIRS += \
+BOARD_VENDOR_SEPOLICY_DIRS += \
     device/cesium/sepolicy/common/dynamic \
     device/cesium/sepolicy/common/vendor
 endif
